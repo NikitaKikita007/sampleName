@@ -1,6 +1,7 @@
 body{
     margin: 0;
     font-family: "Mazzard";
+    padding: 0;
 }
 a{
     text-decoration: none;
@@ -12,6 +13,9 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'Mazzard';
     src: url(../fonts/MazzardM-Medium.ttf);
 }
+
+
+
 .header{
     width: 1440px;
     height: 77px;
@@ -114,5 +118,6 @@ h1, h2, h3, h4, h5, h6{
 }
 .kartinka{
     width: 236px;
+    background-color: aquamarine;
     
 }
