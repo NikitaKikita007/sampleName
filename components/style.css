@@ -20,6 +20,7 @@ h1, h2, h3, h4, h5, h6{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    inline-size: 20px;
 }
 .header-catalog{
     display: flex;
