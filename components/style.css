@@ -14,10 +14,9 @@ h1, h2, h3, h4, h5, h6{
     src: url(../fonts/MazzardM-Medium.ttf);
 }
 
-
-
 .header{
     width: 1440px;
+ 
     height: 77px;
     background-color: #f9f9f9;
     margin: auto;
@@ -119,6 +118,10 @@ h1, h2, h3, h4, h5, h6{
     margin: 20px;
 
 }
+
+
+.opium{}
+
 .kartinka{
     width: 236px;
     background-color: aquamarine;
