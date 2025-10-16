@@ -19,11 +19,12 @@ h1, h2, h3, h4, h5, h6{
  
     height: 77px;
     background-color: #f9f9f9;
-    margin: auto;
+    margin:auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    inline-size: 20px;
+   
+   
 }
 .header-catalog{
     display: flex;
@@ -126,4 +127,16 @@ h1, h2, h3, h4, h5, h6{
     width: 236px;
     background-color: aquamarine;
     
+}
+.iMac-block{
+     display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.Desktop{
+    max-width: 855px;
+    margin: auto;
+    height: 386px;
+    background-color: rgba(200, 199, 244, 0.5);
+     border-radius:6px;
 }
