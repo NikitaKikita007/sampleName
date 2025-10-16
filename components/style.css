@@ -23,7 +23,6 @@ h1, h2, h3, h4, h5, h6{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    inline-size: 20px;
 }
 .header-catalog{
     display: flex;
@@ -119,11 +118,18 @@ h1, h2, h3, h4, h5, h6{
 
 }
 
-
-.opium{}
-
 .kartinka{
     width: 236px;
     background-color: aquamarine;
-    
+}
+.product-block{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.products2{
+    max-width: 1289px;
+    margin: auto;
+    height: 461px;
+    background-color: black;
 }
