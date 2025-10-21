@@ -144,3 +144,12 @@ margin: auto;
     display: flex;
     justify-content: space-between;
 }
+.footerright{
+    display: flex;
+}
+.footerleft{
+    display: flex}
+ .footerbetween{
+ display: flex;
+        
+    }
