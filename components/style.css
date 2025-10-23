@@ -13,7 +13,9 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'Mazzard';
     src: url(../fonts/MazzardM-Medium.ttf);
 }
-
+section{
+    margin-top: 80px;
+}
 .header{
     width: 1440px;
  
@@ -48,7 +50,8 @@ h1, h2, h3, h4, h5, h6{
 }
 .products{
     max-width: 1289px;
-    margin: auto;
+    margin: 0 auto;
+    margin-top: 80px;
     height: 461px;
 }
 .title{
@@ -100,6 +103,7 @@ h1, h2, h3, h4, h5, h6{
     height: 460px;
     background-color: #ffffff;
     margin: auto;
+    margin-top: 80px;
 }
 .scroll-box{
     width: 1289px;
@@ -172,3 +176,17 @@ h1, h2, h3, h4, h5, h6{
     margin-top: -40px;
     margin-left: 150px;
 }
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footerright{
+    display: flex;
+}
+.footerleft{
+    display: flex}
+ .footerbetween{
+ display: flex;
+        
+    }
