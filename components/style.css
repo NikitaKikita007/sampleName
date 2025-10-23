@@ -95,6 +95,13 @@ h1, h2, h3, h4, h5, h6{
     gap: 5px;
     padding-bottom: 20px;
 }
+.card:hover{
+    background-color: #f2f2f2;
+    transform: rotateX(88deg);
+    transform: translateY(-10px);
+    transition: all 0.1 ease;
+    box-shadow: 0px 10px 10px gray;
+}
 .scroll-main{
     width: 1289px;
     height: 460px;
@@ -154,11 +161,19 @@ h1, h2, h3, h4, h5, h6{
     margin-left: -80px;
 }
 .bibi{
-    background-color: #6E25EE;
+    background-color: slateblue;
     width: 132px;
     height: 33px;
     border-radius: 10px;
     margin-top: 30px;
+    transition: all 0.2s ease-out;
+}
+.bibi:hover{
+    background-color: slateblue;
+    transform: rotateX(88deg);
+    transform: translateY(-10px);
+    transition: all 0.1 ease;
+    box-shadow: 0px 10px 10px gray;
 }
 .baba{
     width: 71px;
@@ -171,4 +186,16 @@ h1, h2, h3, h4, h5, h6{
     height: 35px;
     margin-top: -40px;
     margin-left: 150px;
+}
+.card-img1{
+    width: 225px;
+    height: 247px;
+}
+.card-img2{
+    width: 235px;
+    height: 235px;
+}
+.card-img3{
+    width: 220px;
+    height: 247px;
 }
