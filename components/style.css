@@ -199,3 +199,14 @@ h1, h2, h3, h4, h5, h6{
     width: 220px;
     height: 247px;
 }
+.baton{
+    background-color: white;
+    border-radius: 100px;
+    width: 240px;
+    border: none;
+}
+.gf{
+    margin-top: 100px;
+    width: 400px;
+    height: 1px;
+}
