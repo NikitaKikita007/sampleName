@@ -251,3 +251,15 @@ h6 {
     width: 240px;
     border: none;
 }
+.header2{
+    .header {
+    width: 1440px;
+
+    height: 77px;
+    background-color: #f9f9f9;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+}

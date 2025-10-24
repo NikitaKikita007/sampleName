@@ -3,9 +3,19 @@
 }
 .card-img1{
     margin-top: -0.5px;
+    background-color: white;
+    
 }
 .gg{
    width: 500px;
    margin-left: 200px;
    margin-top: 80px;
+}
+.card-img2{
+   margin-top: auto;
+   height: 250px;
+}
+.o{
+   margin-left: 850px;
+   margin-top: -600px;
 }
