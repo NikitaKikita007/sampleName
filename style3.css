@@ -1,0 +1,51 @@
+.card-type4 {
+   font-size: 50px;
+   margin-left: 800px;
+   margin-top: -500px;
+   display: flex;
+
+
+
+}
+
+.card-type3 {
+   font-size: 50px;
+   display: flex;
+   margin-left: 800px;
+}
+
+
+.card-rating1 {
+   margin-left: 800px;
+   width: 1000px;
+}
+
+.q {
+   width: 50px;
+}
+
+.w {
+   width: 50px;
+}
+
+.e {
+    width: 50px;
+}
+
+
+
+.r {
+   width: 50px;
+}
+
+
+
+.t {
+   width: 50px;
+}
+.u{
+   width: 150px;
+   height:50px;
+   background-color: blueviolet;
+   border-radius: 100px;
+}
