@@ -1,24 +1,34 @@
-body{
+body {
     margin: 0;
     font-family: "Mazzard";
     padding: 0;
 }
-a{
+
+a {
     text-decoration: none;
 }
-h1, h2, h3, h4, h5, h6{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
 }
+
 @font-face {
     font-family: 'Mazzard';
     src: url(../fonts/MazzardM-Medium.ttf);
 }
-section{
+
+section {
     margin-top: 80px;
 }
-.header{
+
+.header {
     width: 1440px;
- 
+
     height: 77px;
     background-color: #f9f9f9;
     margin: auto;
@@ -26,59 +36,68 @@ section{
     align-items: center;
     justify-content: space-around;
 }
-.header-catalog{
+
+.header-catalog {
     display: flex;
     align-items: center;
-    gap: 10px;   
+    gap: 10px;
 }
-.header-name{
+
+.header-name {
     letter-spacing: 2px;
     font-weight: 900;
 }
 
 
 
-.header-menu{
+.header-menu {
     display: flex;
     align-items: center;
     gap: 40px;
 }
-.product-block{
+
+.product-block {
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
 }
-.products{
+
+.products {
     max-width: 1289px;
     margin: 0 auto;
     margin-top: 80px;
     height: 461px;
 }
-.title{
+
+.title {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.card-img{
+
+.card-img {
     margin-left: -25px;
     width: 240px;
     height: 247px;
 }
-.card-type{
+
+.card-type {
     color: #717171;
     font-size: 12px;
 }
-.card-name{
+
+.card-name {
     font-size: 15px;
 }
-.card-rating{
+
+.card-rating {
     color: #717171;
     font-size: 10px;
 }
-.card-price{
-  
-}
-.card-info{
+
+.card-price {}
+
+.card-info {
     display: flex;
     justify-content: center;
     align-items: baseline;
@@ -87,7 +106,8 @@ section{
     padding-left: 25px;
 
 }
-.card{
+
+.card {
     width: 240px;
     background-color: #f2f2f2;
     border-radius: 6px;
@@ -98,22 +118,25 @@ section{
     gap: 5px;
     padding-bottom: 20px;
 }
-.scroll-main{
+
+.scroll-main {
     width: 1289px;
     height: 460px;
     background-color: #ffffff;
     margin: auto;
     margin-top: 80px;
 }
-.scroll-box{
+
+.scroll-box {
     width: 1289px;
     /* height: 440px; */
     background-color: rgb(255, 255, 255);
     display: flex;
     overflow-x: scroll;
     overflow-y: hidden;
-}   
-.scroll-block{
+}
+
+.scroll-block {
     width: 764px;
     height: 386px;
     background-color: rgb(224, 224, 224);
@@ -124,69 +147,84 @@ section{
 }
 
 
-.opium{}
+.opium {}
 
-.kartinka{
+.kartinka {
     width: 290px;
     background-color: rgb(224, 224, 224);
-    
+
 }
-.info{
+
+.info {
     margin: auto;
     font-size: 39px;
     display: flex;
     flex-direction: column;
 }
-.card-type2{
+
+.card-type2 {
     font-size: 12px;
     color: #717171;
- 
+
 
 }
-.kartinka2{
-  width: 500px;
-  background-color: rgb(224, 224, 224);
-  margin: 20px;
-  margin-top: 50px;
-  margin-inline-start: 20px;
+
+.kartinka2 {
+    width: 500px;
+    background-color: rgb(224, 224, 224);
+    margin: 20px;
+    margin-top: 50px;
+    margin-inline-start: 20px;
 }
-.info2{
+
+.info2 {
     margin: auto;
     font-size: 39px;
     display: flex;
     flex-direction: column;
     margin-left: -80px;
 }
-.bibi{
+
+.bibi {
     background-color: #6E25EE;
     width: 132px;
     height: 33px;
     border-radius: 10px;
     margin-top: 30px;
 }
-.baba{
-    width: 71px;
-    height: 35px;
-    margin-top: -40px;
-    margin-left: 150px;
-}
-.baba2{
+
+.baba {
     width: 71px;
     height: 35px;
     margin-top: -40px;
     margin-left: 150px;
 }
 
-.footer{
+.baba2 {
+    width: 71px;
+    height: 35px;
+    margin-top: -40px;
+    margin-left: 150px;
+}
+
+.footer {
     display: flex;
     justify-content: space-between;
 }
-.footerright{
+
+.footerright {
     display: flex;
 }
-.footerleft{
-    display: flex}
- .footerbetween{
- display: flex;
-        
-    }
+
+.footerleft {
+    display: flex
+}
+
+.footerbetween {
+    display: flex;
+
+}
+
+.m {
+    margin-top: 400px;
+}
